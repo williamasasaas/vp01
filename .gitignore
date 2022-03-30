@@ -7,7 +7,7 @@
 /examples/**/dist
 /coverage
 /docs/.vuepress/dist
-/public
+
 .DS_Store
 *.log
 .idea
