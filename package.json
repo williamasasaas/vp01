@@ -1,0 +1,21 @@
+{
+  "name": "jyw-learning",
+  "version": "1.0.0",
+  "description": "Learning documents",
+  "main": "index.js",
+  "repository": "git@gitlab.com:Jia-Yin/jyw-learning.git",
+  "author": "Jia-Yin Wang <jywglady@gmail.com>",
+  "license": "MIT",
+  "base": "/vp01/",
+  "devDependencies": {
+    "vuepress": "^1.9.7"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "@vuepress/theme-default": "^1.0.2",
+    "vue": "^2.6.14"
+  }
+}
