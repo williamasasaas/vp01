@@ -1,5 +1,5 @@
 <template>
-      <div class="game">
+    <div class="game">
         <div class="game-board">
             <div> <button @click="resetBoard()">Reset</button>
                 <div class="board-row" v-for="row in 3" :key="'r'+row">
@@ -11,7 +11,7 @@
         </div>
         <div class="game-info">
         </div>
-      </div>
+    </div>
 </template>
 
 <script>
